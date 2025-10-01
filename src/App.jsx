@@ -144,7 +144,7 @@ function App() {
             </Card>
             
             <p className="text-sm text-gray-600">
-              Obrigada por confiar no +Maravilhosa! 💜
+              Parabéns por se colocar em primeiro lugar! 💜
             </p>
           </div>
         </div>
