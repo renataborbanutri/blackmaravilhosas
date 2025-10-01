@@ -266,16 +266,18 @@ function App() {
           <Card className="bg-white border-2 border-gray-200 shadow-xl">
             <CardContent className="pt-8">
               <div className="space-y-4 mb-6">
-                <div className="flex items-start">
-                  <span className="text-2xl mr-3">❌</span>
-                  <p className="text-lg text-gray-700">Você não precisa de dietas restritivas.</p>
-                </div>
-                <div className="flex items-start">
-                  <span className="text-2xl mr-3">❌</span>
+              <div className="flex items-center p-4 mb-3 bg-red-50 border border-red-200 rounded-xl shadow-sm">
+              <span className="text-red-600 text-2xl mr-3">❌</span>
+              <p className="text-lg text-red-700 font-medium">
+              Você não precisa de dietas restritivas.
+              </p>
+              </div>
+              <div className="flex items-center p-4 mb-3 bg-red-50 border border-red-200 rounded-xl shadow-sm">
+              <span className="text-red-600 text-2xl mr-3">❌</span>
                   <p className="text-lg text-gray-700">Não precisa de cardápios engessados.</p>
                 </div>
-                <div className="flex items-start">
-                  <span className="text-2xl mr-3">❌</span>
+                <div className="flex items-center p-4 mb-3 bg-red-50 border border-red-200 rounded-xl shadow-sm">
+                <span className="text-red-600 text-2xl mr-3">❌</span>
                   <p className="text-lg text-gray-700">Nem de suplementos aleatórios.</p>
                 </div>
               </div>
