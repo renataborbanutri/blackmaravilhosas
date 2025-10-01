@@ -173,7 +173,7 @@ function App() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            A sua chance única de transformar corpo e hormônios com o <span className="text-purple-600">menor preço do ano!</span>
+            Sua chance única de ter o +Maravilhosa por um  <span className="text-purple-600">preço que não volta nunca mais!</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
@@ -350,23 +350,28 @@ function App() {
                 </div>
 
                 <Button
-                  type="submit"
-                  size="lg"
-                  disabled={isSubmitting}
-                  className="w-full text-xl py-6 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                type="submit"
+                size="lg"
+                disabled={isSubmitting}
+                className="w-full text-xl py-6
+                bg-gradient-to-r from-green-500 to-green-600
+                hover:from-green-600 hover:to-green-700
+                text-white font-bold shadow-lg hover:shadow-xl
+                transition-all duration-300 transform hover:scale-105 rounded-xl"
                 >
-                  {isSubmitting ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                      Enviando...
-                    </>
-                  ) : (
-                    <>
-                      <Sparkles className="w-6 h-6 mr-2" />
-                      Quero garantir minha vaga no +Maravilhosa Black Friday
-                    </>
-                  )}
+                {isSubmitting ? (
+                  <>
+                  <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
+                  Enviando...
+                  </>
+                ) : (
+                  <>
+                  <Sparkles className="w-6 h-6 mr-2" />
+                  Quero garantir minha vaga no +Maravilhosa Black Friday
+                  </>
+                )}
                 </Button>
+
               </form>
 
               <p className="text-center text-sm text-gray-500 mt-6">
@@ -381,11 +386,11 @@ function App() {
           <div className="flex items-center justify-center space-x-8 text-gray-600">
             <div className="flex items-center">
               <Users className="w-5 h-5 mr-2 text-purple-600" />
-              <span>Milhares de mulheres transformadas</span>
+              <span>Você +Maravilhosa</span>
             </div>
             <div className="flex items-center">
               <Heart className="w-5 h-5 mr-2 text-pink-600" />
-              <span>Resultados comprovados</span>
+              <span>Resultados definitivos</span>
             </div>
           </div>
         </div>
