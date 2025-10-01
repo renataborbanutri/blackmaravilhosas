@@ -177,18 +177,23 @@ function App() {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
-            No <strong>+Maravilhosa</strong>, você terá acesso à <strong>Tata</strong>, minha calculadora exclusiva 
-            que monta todas as suas refeições de forma prática, à <strong>suplementação individualizada</strong> pensada 
-            só para você, e ainda contará com um <strong>encontro mensal ao vivo no Zoom</strong>, em grupo, 
-            para tirar todas as suas dúvidas.
+          No <strong>+Maravilhosa</strong>, você terá <strong>acesso por 1 ano inteiro</strong> à <strong>Tata</strong>,
+          minha calculadora exclusiva que monta todas as suas refeições de forma prática,
+          à <strong>suplementação individualizada</strong> pensada só para você — revisada a cada 3 meses para acompanhar sua evolução —
+          e ainda contará com um <strong>encontro mensal ao vivo no Zoom</strong>, em grupo, para tirar todas as suas dúvidas.
           </p>
+
           
           <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl p-6 md:p-8 mb-8 border-2 border-purple-200 shadow-lg">
-            <p className="text-lg md:text-xl text-gray-800 mb-4">
-              <strong>E tem mais:</strong> você também recebe o <strong className="text-purple-700">JAF – Jejum Acelerador Feminino</strong>, 
-              uma ferramenta poderosa para acelerar seus resultados já nas primeiras semanas, de forma segura e adaptada ao corpo da mulher.
-            </p>
+          <p className="text-lg md:text-xl text-gray-800 mb-4">
+          <strong>E tem mais:</strong> você também recebe o <strong className="text-purple-700">JAFE – Jejum Acelerador Feminino</strong>,
+          uma ferramenta poderosa para acelerar seus resultados já nas primeiras semanas, de forma segura e adaptada ao corpo da mulher.
+          Além disso, você contará com um <strong>tracker exclusivo</strong> que mostra <strong>passo a passo tudo o que precisa fazer</strong>
+          para iniciar o jejum da maneira correta e com total segurança — disponível em <strong>versão digital</strong> para usar no celular
+          e também em <strong>versão para imprimir</strong>, caso prefira acompanhar no papel.
+          </p>
           </div>
+
         </div>
 
         {/* Benefits Grid */}
