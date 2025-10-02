@@ -358,21 +358,37 @@ function App() {
                 type="submit"
                 size="lg"
                 disabled={isSubmitting}
-                className="w-full text-xl py-6
+                aria-busy={isSubmitting}
+                aria-live="polite"
+                className="
+                w-full inline-flex items-center justify-center gap-2
+                px-4 sm:px-6 py-4 sm:py-5 md:py-6 min-h-[52px] sm:min-h-[56px]
+                text-base sm:text-lg md:text-xl leading-snug text-center
                 bg-gradient-to-r from-green-500 to-green-600
-                hover:from-green-600 hover:to-green-700
-                text-white font-bold shadow-lg hover:shadow-xl
-                transition-all duration-300 transform hover:scale-105 rounded-xl"
+                md:hover:from-green-600 md:hover:to-green-700
+                text-white font-bold shadow-lg md:hover:shadow-xl
+                motion-safe:transition-transform motion-reduce:transition-none duration-200
+                rounded-lg sm:rounded-xl
+                active:scale-[0.99] md:hover:scale-[1.02]
+                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-600
+                disabled:opacity-70 disabled:cursor-not-allowed select-none touch-manipulation
+                "
                 >
                 {isSubmitting ? (
                   <>
-                  <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                  Enviando...
+                  <div
+                  className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent"
+                  aria-hidden="true"
+                  />
+                  <span>Enviando…</span>
                   </>
                 ) : (
                   <>
-                  <Sparkles className="w-6 h-6 mr-2" />
+                  <Sparkles className="hidden sm:block w-6 h-6" aria-hidden="true" />
+                  <span className="sm:hidden">Quero minha vaga</span>
+                  <span className="hidden sm:inline">
                   Quero garantir minha vaga no +Maravilhosa Black Friday
+                  </span>
                   </>
                 )}
                 </Button>
