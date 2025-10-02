@@ -190,11 +190,23 @@ function App() {
             />
           </div>
           
-          <div className="inline-block mb-6">
-            <span className="bg-red-600 text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wide animate-pulse">
-              🔥 Black Friday - Oferta Exclusiva
-            </span>
+          <div className="inline-block mb-4 sm:mb-6 text-center">
+          <span
+          className="
+          inline-block
+          bg-red-600 text-white
+          px-4 sm:px-6 py-1.5 sm:py-2
+          rounded-full
+          text-xs sm:text-sm md:text-base
+          font-bold uppercase tracking-wide
+          animate-pulse
+          whitespace-normal sm:whitespace-nowrap
+          "
+          >
+          🔥 Black Friday — Oferta Exclusiva
+          </span>
           </div>
+
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Sua chance única de ter o +Maravilhosa por um  <span className="text-purple-600">preço que não volta nunca mais!</span>
