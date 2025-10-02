@@ -355,48 +355,27 @@ function App() {
                 </div>
 
                 <Button
-                t<Button
                 type="submit"
                 size="lg"
                 disabled={isSubmitting}
-                aria-busy={isSubmitting ? "true" : "false"}
-                aria-live="polite"
-                className="
-                w-full
-                py-5 sm:py-6            /* altura de toque ≥48px no mobile */
-                text-base sm:text-lg    /* fonte menor no mobile, maior em telas médias */
-                font-bold
-                rounded-xl
+                className="w-full text-xl py-6
                 bg-gradient-to-r from-green-500 to-green-600
-                text-white
-                shadow-lg
-                transition-all duration-300
                 hover:from-green-600 hover:to-green-700
-                hover:shadow-xl
-                active:scale-[0.99]
-                focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-500
-                disabled:opacity-60 disabled:cursor-not-allowed
-                "
+                text-white font-bold shadow-lg hover:shadow-xl
+                transition-all duration-300 transform hover:scale-105 rounded-xl"
                 >
                 {isSubmitting ? (
                   <>
-                  {/* Spinner acessível e leve para mobile */}
-                  <span
-                  className="mr-2 inline-block h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"
-                  aria-hidden="true"
-                  />
+                  <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
                   Enviando...
                   </>
                 ) : (
                   <>
-                  <Sparkles className="mr-2 h-5 w-5 sm:h-6 sm:w-6 shrink-0" aria-hidden="true" />
-                  <span className="text-center">
+                  <Sparkles className="w-6 h-6 mr-2" />
                   Quero garantir minha vaga no +Maravilhosa Black Friday
-                  </span>
                   </>
                 )}
                 </Button>
-
 
               </form>
 
