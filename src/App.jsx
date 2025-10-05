@@ -213,9 +213,9 @@ function App() {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-8">
-          No <strong>+Maravilhosa</strong>, você terá <strong>acesso por 1 ano inteiro</strong> à <strong>Tata</strong>,
-          minha calculadora exclusiva que monta todas as suas refeições de forma prática,
-          à <strong>suplementação individualizada</strong> pensada só para você — revisada a cada 3 meses para acompanhar sua evolução —
+          No <strong>+Maravilhosa</strong>, você terá <strong>acesso por 1 ano inteiro</strong> à <strong>Tata</strong>
+          (minha calculadora exclusiva que monta todas as suas refeições de forma prática),
+          à <strong>suplementação individualizada</strong> pensada só para você, revisada a cada 3 meses para acompanhar sua evolução,
           e ainda contará com um <strong>encontro mensal ao vivo no Zoom</strong>, em grupo, para tirar todas as suas dúvidas.
           </p>
 
@@ -317,7 +317,7 @@ function App() {
                 </div>
                 <div className="flex items-center p-4 mb-3 bg-red-50 border border-red-200 rounded-xl shadow-sm">
                 <span className="text-red-600 text-2xl mr-3">❌</span>
-                  <p className="text-lg text-gray-700">Nem de suplementos aleatórios.</p>
+                  <p className="text-lg text-gray-700">Não precisa de suplementos aleatórios.</p>
                 </div>
               </div>
               
